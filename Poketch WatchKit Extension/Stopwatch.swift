@@ -212,7 +212,7 @@ struct Stopwatch: View {
                         Image("stopwatch-explosion-\(pressedAnimationFrame)-c").renderingMode(.template).interpolation(.none).resizable().aspectRatio(contentMode: .fit).frame(width: explosionWidth).foregroundColor(config.theme.colorC).offset(x: 20.0, y: 28.0).opacity(opacity)
                         Image("stopwatch-explosion-\(pressedAnimationFrame)-d").renderingMode(.template).interpolation(.none).resizable().aspectRatio(contentMode: .fit).frame(width: explosionWidth).foregroundColor(config.theme.colorD).offset(x: 20.0, y: 28.0).opacity(opacity)
                         
-                        let pressedAnimationFrame = (pressedFrames + 2) % 6 / 2 + 1
+                        
 
                         Image("stopwatch-explosion-\(pressedAnimationFrame)-a").renderingMode(.template).interpolation(.none).resizable().aspectRatio(contentMode: .fit).frame(width: explosionWidth).foregroundColor(config.theme.colorA).offset(x: -28.0, y: -18.0).opacity(opacity)
                         Image("stopwatch-explosion-\(pressedAnimationFrame)-b").renderingMode(.template).interpolation(.none).resizable().aspectRatio(contentMode: .fit).frame(width: explosionWidth).foregroundColor(config.theme.colorB).offset(x: -28.0, y: -18.0).opacity(opacity)
